@@ -1,0 +1,139 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+/* header.bg-light {
+    position: fixed;
+    z-index: 1000;
+    width: 100%;
+}
+.page-content {
+    margin-top: 58px;
+} 
+*/
+.up {
+  margin-top: -5px;
+  display: block;
+  transition: 1s ;
+}
+.fa,
+.far,
+.fas {
+  position: relative;
+  top: 1px;
+  left: 10px;
+  font-size: 16px !important;
+  color: #ffffffed !important;
+  font-family: "Font Awesome 5 Free";
+}
+a.sticky {
+  background-color: #5d5d5d;
+  width: 38px;
+  display: inline-block;
+  box-sizing: border-box;
+  border-bottom: 1px solid #ffffff73;
+}
+a.sticky:hover {
+  background-color: #000000;
+  
+}
+
+.black2{
+   background-color: #000000 !important;
+}
+
+
+
+.display{
+  display: block !important;
+}
+
+
+
+
+
+.so-groups-sticky.right {
+  display:none;
+  position: fixed;
+  right: 0;
+  z-index: 10;
+  width: 50px;
+}
+a.boder_bottom {
+  position: relative;
+  color: #000;
+  text-decoration: none;
+  /* text-transform:uppercase; */
+}
+a.boder_bottom:hover {
+  color: #000;
+}
+
+a.boder_bottom:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+a.nav-link:hover:before {
+  visibility: visible;
+  -webkit-transform: scaleX(1);
+  transform: scaleX(1);
+}
+
+i.fab {
+  color: white;
+}
+i.fab:hover {
+  -webkit-transform: scaleX(1);
+  transform: scale(2);
+}
+img.img-thumbnail.shadow-2-strong {
+  border-radius: 50%;
+}
+
+#myBtn {
+  width: 40px;
+  height: 40px;
+  display: none;
+  position: fixed;
+  bottom: 60px;
+  right: 12px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  border: 0px solid #ccc;
+  color: white;
+  cursor: pointer;
+  border-radius: 50%; 
+  background-color: #5d5d5d;
+}
+#myBtn:hover{
+   background-color: black;
+}
+
+
+.black{
+  color: black !important;
+}
+.black1{
+  color: rgba(0, 0, 0, 0.575) !important;
+}
+.red{
+  color: red !important;
+  font-weight: 800;
+}
+
+.h200 {
+  max-width: 100%;
+  height: 250px;
+}
